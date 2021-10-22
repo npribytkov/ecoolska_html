@@ -1,0 +1,84 @@
+@import url(defaultStyles.css);
+@import url(fonts.css);
+@import url(animates.css);
+@import url(icons.css);
+@import url(jquery.formstyler.css);
+@import url(jquery.fancybox.css);
+@import url(jquery.fancybox-thumbs.css);
+@import url(embla-carousel.css);
+@import url(nstSlider.css);
+@import url(magiczoomplus.css);
+@import url(style.css);
+@import url(media.css);
+.productImagesCol{
+	    width: 55%;
+}
+.productCard{
+	width: 45%;
+}
+.productMinImages li a {
+    display: block;
+    width: 126px;
+    height: 126px;
+    text-align: center;
+    position: relative;
+}
+.productMinImages {
+    width: 110px;
+}
+.productImages {
+    padding: 0 0 0 160px;
+}
+.productMinImages{
+    margin: 0 0 0 -134px;
+}
+.productMinImages li a img{
+	max-height: 130px;
+}
+.productBigImage > .MagicZoom{
+	width: 100%;
+}
+.productBigImage > .MagicZoom figure.mz-figure{
+	width: 100%;
+}
+.MagicZoom figure.mz-figure > img{
+	max-width: 100% !important;
+	max-height: 100% !important;
+}
+.productCard,
+.additionalProductsBlock{
+	zoom: .8;
+}
+.productCardBlock .link.link2{
+	display: none;
+}
+.topHeaderNav.right > ul{
+	float: left;
+}
+.topHeaderNav.right > .lang{
+    float: right;
+    margin-left: 20px;
+    line-height: 21px;
+}
+.topHeaderNav.right > .lang a{
+	    border-bottom: 1px solid;
+}
+.topHeaderNav.right > .lang a.active_l{
+	display: none;
+}
+.headerBtns .lang{
+	
+}
+.headerBtns .lang a.active_l{
+	display: none;
+}
+.teamListItemTxt .j-show_all{
+	    border-bottom: 1px dashed;
+    font-size: 14px;
+}
+.main_sustain .sectionTitle{
+	display: none;
+}
+.section.main_sustain{
+    padding-top: 20px;
+}
