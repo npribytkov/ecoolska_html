@@ -2,6 +2,11 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+@media (max-width: 1360px) {
+  .auction-page .wrapper {
+    max-width: 1012px;
+  }
+}
 .auction-page .wrapper-2 {
   max-width: 1512px;
   margin: 0 auto;
@@ -104,6 +109,69 @@
   background-color: #fff;
   padding: 23px 34px;
   margin-bottom: 48px;
+}
+@media (max-width: 1600px) {
+  .auction-page .auction-section.auction-section-1 h1 {
+    font-size: 105px;
+  }
+  .auction-page .auction-section.auction-section-1 .hash-tag {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .auction-page .auction-section.auction-section-1 .top a {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .auction-page .auction-section.auction-section-1 .desc-list .desc-item {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .auction-page .auction-section.auction-section-1 .timer-block .desc {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .auction-page .auction-section.auction-section-1 .timer-block .number {
+    font-size: 220px;
+    line-height: 220px;
+  }
+  .auction-page .auction-section.auction-section-1 .timer-block .type {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 1360px) {
+  .auction-page .auction-section.auction-section-1 h1 {
+    font-size: 90px;
+  }
+  .auction-page .auction-section.auction-section-1 .hash-tag {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .auction-page .auction-section.auction-section-1 .top a {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .auction-page .auction-section.auction-section-1 .desc-list .desc-item {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .auction-page .auction-section.auction-section-1 .timer-block .desc {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .auction-page .auction-section.auction-section-1 .timer-block .number {
+    font-size: 168px;
+    line-height: 168px;
+  }
+  .auction-page .auction-section.auction-section-1 .timer-block .type {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .auction-page .auction-section.auction-section-1 .timer-block .btn-block a {
+    margin-bottom: 41px;
+    font-size: 18px;
+    line-height: 18px;
+  }
 }
 .auction-page .auction-section.auction-section-2 {
   position: relative;

@@ -3,6 +3,11 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+  @media (max-width: 1360px) {
+    .wrapper{
+      max-width: 1012px;
+    }
+  }
   .wrapper-2{
     max-width: 1512px;
     margin: 0 auto;
@@ -108,6 +113,84 @@
           }
         }
       }
+      @media (max-width: 1600px) {
+        h1{
+          font-size: 105px;
+        }
+        .hash-tag{
+          font-size: 56px;
+          line-height: 56px;
+        }
+        .top{
+          a{
+            font-size: 20px;
+            line-height: 20px;
+          }
+        }
+        .desc-list{
+          .desc-item{
+            font-size: 20px;
+            line-height: 28px;
+          }
+        }
+        .timer-block{
+          .desc{
+            font-size: 28px;
+            line-height: 28px;
+          }
+          .number{
+            font-size: 220px;
+            line-height: 220px;
+          }
+          .type{
+            font-size: 50px;
+            line-height: 50px;
+          }
+        }
+      }
+      @media (max-width: 1360px) {
+        h1{
+          font-size: 90px;
+        }
+        .hash-tag{
+          font-size: 50px;
+          line-height: 50px;
+        }
+        .top{
+          a{
+            font-size: 18px;
+            line-height: 18px;
+          }
+        }
+        .desc-list{
+          .desc-item{
+            font-size: 18px;
+            line-height: 26px;
+          }
+        }
+        .timer-block{
+          .desc{
+            font-size: 24px;
+            line-height: 24px;
+          }
+          .number{
+            font-size: 168px;
+            line-height: 168px;
+          }
+          .type{
+            font-size: 40px;
+            line-height: 40px;
+          }
+          .btn-block{
+            a{
+              margin-bottom: 41px;
+              font-size: 18px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+
     }
     &.auction-section-2{
       position: relative;
