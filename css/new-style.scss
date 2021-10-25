@@ -1,3 +1,1330 @@
-body{
-  color: wheat;
+.auction-page{
+  .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .wrapper-2{
+    max-width: 1512px;
+    margin: 0 auto;
+  }
+  .auction-section{
+    color: #fff;
+    overflow: hidden;
+    &.auction-section-1 {
+      padding-top: 80px;
+      padding-bottom: 143px;
+      .top{
+        margin-bottom: 18px;
+        a{
+          font-family: Raleway;
+          font-style: normal;
+          border: 1px solid #fff;
+          padding: 14px 18px;
+          border-radius: 50px;
+          margin-right: 32px;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          display: inline-block;
+        }
+      }
+      h1{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 120px;
+        line-height: 0.95;
+        letter-spacing: -0.02em;
+        margin: 0;
+        .text-right{
+          text-align: right;
+          margin-right: 11%;
+        }
+      }
+      .hash-tag{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+      }
+      .desc-list{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 93px;
+        .desc-item{
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          width: calc(100% / 3 - 45px);
+          border-left: 2px solid #fff;
+          padding-left: 8px;
+        }
+      }
+      .timer-block{
+        .desc{
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 32px;
+        }
+        .timer{
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+        }
+        .number{
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 240px;
+          line-height: 240px;
+        }
+        .type{
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 56px;
+          line-height: 56px;
+        }
+        .btn-block{
+          a{
+            display: inline-block;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+            color: #111111;
+            background-color: #fff;
+            padding: 23px 34px;
+            margin-bottom: 48px;
+          }
+        }
+      }
+    }
+    &.auction-section-2{
+      position: relative;
+      text-align: center;
+      padding-top: 87px;
+      padding-bottom: 114px;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 88px;
+        letter-spacing: -0.03em;
+        margin-bottom: 47px;
+      }
+      .title{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 280px;
+        line-height: 280px;
+        letter-spacing: -0.03em;
+      }
+      .desc{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        width: 393px;
+        margin: -38px auto 0;
+        padding-bottom: 145px;
+      }
+      .problem-list{
+        display: flex;
+        justify-content: space-between;
+        .problem-item{
+          position: relative;
+          width: calc(100%/4 - 20px);
+          .problem-line{
+            position: absolute;
+            &.line-1{
+              top: -211px;
+              right: -98px;
+            }
+            &.line-2{
+              top: -146px;
+              right: 109px;
+            }
+            &.line-3{
+              top: -146px;
+              right: 103px
+            }
+            &.line-4  {
+              top: -211px;
+              left: -86px;
+            }
+          }
+          .problem-item__title{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: -0.03em;
+            span{
+              font-family: Bebas Neue;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 72px;
+              line-height: 72px;
+              letter-spacing: -0.03em;
+              margin-right: 8px;
+            }
+          }
+          .problem-item__desc{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+      .decor-left-1{
+        position: absolute;
+        background-image: url("../img/decor-left-1.png");
+        width: 753px;
+        height: 864px;
+        left: -15px;
+        top: 0;
+      }
+      .decor-right-1{
+        position: absolute;
+        background-image: url("../img/decor-right-1.png");
+        width: 609px;
+        height: 1032px;
+        right: 0;
+        top: 64px;
+      }
+
+    }
+    &.auction-section-3{
+      position: relative;
+      height: 776px;
+      .decor{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .decor-1{
+        background-image: url("../img/section-3-decor-1.png");
+        width: 319.97px;
+        height: 207.42px;
+        left: 127px;
+        top: 178px;
+      }
+      .decor-2{
+        background-image: url("../img/section-3-decor-2.png");
+        width: 272px;
+        height: 302px;
+        top: 390px;
+        left: 0;
+      }
+      .decor-3{
+        background-image: url("../img/section-3-decor-3.png");
+        width: 152.7px;
+        height: 147.79px;
+        top: 521px;
+        left: 250px;
+      }
+      .decor-4{
+        background-image: url("../img/section-3-decor-4.png");
+        width: 341px;
+        height: 435px;
+        top: 445px;
+        right: 464px;
+
+      }
+      .decor-5{
+        background-image: url("../img/section-3-decor-5.png");
+        width: 296px;
+        height: 259px;
+        top: 563px;
+        right: 213px;
+      }
+      .decor-6{
+        background-image: url("../img/section-3-decor-6.png");
+        width: 394px;
+        height: 496px;
+        top: -27px;
+        right: 175px;
+      }
+    }
+    &.auction-section-4{
+      padding-top: 180px;
+      padding-bottom: 160px;
+      color: #111111;
+      .top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 82px;
+        .col-left{
+          flex: 0 0 640px;
+          h2{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 80px;
+            line-height: 80px;
+          }
+          .text{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+            width: 478px;
+            span{
+              font-weight: bold;
+            }
+          }
+        }
+        .col-right{
+          flex: 0 0 477px;
+          .reg-block{
+            background: #F5F6FC;
+            padding: 36px 50px;
+            .timer-block{
+              display: flex;
+              margin-bottom: 12px;
+              .number{
+                font-family: Bebas Neue;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 80px;
+                line-height: 80px;
+                margin-right: 16px;
+                display: flex;
+                align-items: end;
+                &:last-child{
+                  margin-right: 0;
+                }
+                span{
+                  font-family: Bebas Neue;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 24px;
+                  line-height: 24px;
+                  margin-bottom: 15px;
+                }
+              }
+            }
+            .text{
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 24px;
+              line-height: 32px;
+              margin-bottom: 72px;
+            }
+            .btn-block{
+              a{
+                display: block;
+                background: #111111;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 24px;
+                text-align: center;
+                padding: 24px 0;
+              }
+            }
+          }
+        }
+      }
+      .bottom{
+        display: flex;
+        justify-content: space-between;
+        .col{
+          flex: 0 0 50%;
+          &:first-child{
+            border-right: 2px solid #E8E8E8;
+            padding-right: 84px;
+
+          }
+          &:last-child{
+            padding-left: 84px;
+          }
+          h3{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 40px;
+          }
+          .product-list{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 -16px;
+            .product-item{
+              flex: 0 0 50%;
+              padding: 0 16px;
+              margin-bottom: 38px;
+              .name{
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 16px;
+                color: #E8E8E8;
+                margin-top: 10px;
+              }
+            }
+          }
+          .price-block{
+            display: flex;
+            justify-content: space-between;
+            .price-item{
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              justify-content: space-between;
+              .ico{
+                font-family: Bebas Neue;
+                font-style: normal;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 32px;
+                line-height: 22px;
+              }
+              .text{
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 12px;
+              }
+              &.btn{
+                a{
+                  font-family: Raleway;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: #FFFFFF;
+                  padding: 16px;
+                  background-color: #111111;
+                  width: 276px;
+                  display: inline-block;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.auction-section-6{
+      color: #111111;
+      padding-top: 180px;
+      padding-bottom: 100px;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+      }
+      p.desc{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        width: 787px;
+      }
+      .cloth{
+        display: flex;
+        justify-content: space-between;
+        .col-left, .col-right{
+          display: flex;
+          flex-flow: column;
+          justify-content: flex-start;
+          padding-top: 105px;
+        }
+        .cloth-item{
+          position: relative;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 32px;
+          line-height: 40px;
+          width: 336px;
+          margin-bottom: 72px;
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+        .col-left{
+          .cloth-item:after{
+            content: '';
+            position: absolute;
+            background-image: url("../img/cloth-item-line.png");
+            width: 393px;
+            height: 117px;
+            left: 0;
+            bottom: -118px;
+          }
+        }
+        .col-right{
+          text-align: right;
+          .cloth-item:after{
+            content: '';
+            position: absolute;
+            background-image: url("../img/cloth-item-line.png");
+            width: 393px;
+            height: 117px;
+            right: 0;
+            bottom: -118px;
+            transform: scale(-1, 1);;
+          }
+        }
+        .col-center{
+          margin: 0 -28px;
+        }
+      }
+    }
+    &.auction-section-7{
+      color: #111111;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 32px;
+      padding-top: 112px;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+      }
+      .block-1{
+        display: flex;
+        justify-content: space-between;
+        .text {
+          width: 788px;
+        }
+        .img{
+          position: relative;
+          z-index: 4;
+        }
+      }
+      .block-2{
+        margin-top: -168px;
+        margin-bottom: 88px;
+        display: flex;
+        justify-content: space-between;
+        .text{
+          width: 274px;
+          margin-top: 208px;
+          margin-left: 32px;
+        }
+        .img-1{
+          margin-top: 72px;
+          position: relative;
+          z-index: 3;
+        }
+        .img-2{
+          margin-left: -70px;
+          margin-top: 28px;
+          position: relative;
+          z-index: 2;
+        }
+        .img-3{
+          margin-left: -70px;
+        }
+      }
+      .block-3{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+        .col-right{
+          flex: 0 0 580px;
+          .img{
+            margin-top: 32px;
+            text-align: right;
+          }
+        }
+      }
+      .block-4{
+        display: flex;
+        justify-content: space-between;
+        .col-left, .col-right{
+          flex: 0 0 580px;
+        }
+        .col-left{
+          .img-block{
+            display: flex;
+            margin-top: 32px;
+            .img-1{
+              margin-top: 32px;
+              position: relative;
+              z-index: 2;
+            }
+            .img-2{
+              margin-left: -37px;
+            }
+          }
+        }
+        .col-right{
+          .img{
+            margin-bottom: 32px;
+          }
+        }
+      }
+      .block-5{
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        .col-right, .col-left{
+          flex: 0 0 580px;
+        }
+        .col-right{
+          h3{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 80px;
+            line-height: 80px;
+            margin-left: -122px;
+            margin-top: -28px;
+          }
+          .img-block{
+            display: flex;
+            align-items: center;
+            .img-2{
+             margin-left: -31px;
+              position: relative;
+              z-index: 2;
+            }
+          }
+          .text{
+            margin-bottom: 47px;
+          }
+        }
+        .col-left{
+          .text{
+            margin-top: 32px;
+          }
+          a{
+            color: #4055C0;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    &.auction-section-8{
+      color: #111111;
+      padding-top: 212px;
+      padding-bottom: 215px;
+      overflow: hidden;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 68px;
+      }
+      .video-list{
+        display: flex;
+        .video-item{
+          flex: 0 0 calc(100% / 4);
+          padding-right: 32px;
+          .img {
+            position: relative;
+            &:before{
+              content: '';
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              background-color: rgba(17, 17, 17, 0.4);
+              transition: background-color 0.3s ease-in-out;
+            }
+            &:after {
+              content: '';
+              position: absolute;
+              background-image: url("../img/ico-play-btn.png");
+              width: 40px;
+              height: 46px;
+              display: inline-block;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              cursor: pointer;
+            }
+          }
+          .name{
+            margin-top: 21px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 32px;
+          }
+          &:hover .img:before{
+            background-color: transparent;
+          }
+        }
+        .slick-list{
+          margin-right: -100%;
+          padding-right: 100%;
+        }
+      }
+    }
+    &.auction-section-9{
+      color: #111111;
+      padding-bottom: 176px;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+      }
+      .text{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        width: 682px;
+      }
+      .block{
+        margin-top: 74px;
+        display: flex;
+        justify-content: space-between;
+        .col{
+          width: 740px;
+          .top{
+            display: flex;
+            color: #4055C0;
+            .number{
+              font-family: Bebas Neue;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 104px;
+              line-height: 104px;
+              margin-bottom: 12px;
+            }
+            .text{
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 24px;
+              width: 260px;
+              margin-left: 16px;
+            }
+          }
+          .img{
+            position: relative;
+            margin-bottom: 61px;
+            .text{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-family: Bebas Neue;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 104px;
+              line-height: 104px;
+              display: block;
+              text-align: center;
+              color: #FFFFFF;
+              div{
+                transform: rotate(-15deg);
+              }
+            }
+          }
+          .text-block{
+            h3{
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 32px;
+              line-height: 32px;
+              color: #4055C0;
+              margin-bottom: 11px;
+            }
+            p{
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 24px;
+              line-height: 32px;
+            }
+          }
+          .btn-block{
+            a{
+              margin-top: 80px;
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 24px;
+              text-align: center;
+              display: block;
+              padding: 24px 0;
+              background-color: #111111;
+            }
+          }
+        }
+        .col-left{
+          .top, .text-block, .btn-block{
+            margin-left: 156px;
+          }
+        }
+        .col-right{
+          .top{
+            margin-left: 156px;
+          }
+          .top, .text-block, .btn-block{
+            margin-right: 156px;
+          }
+        }
+      }
+    }
+    &.auction-section-10{
+      position: relative;
+      background-color: #022D45;
+      padding-top: 84px;
+      padding-bottom: 170px;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 12px;
+      }
+      .text{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        width: 784px;
+        margin-bottom: 406px;
+      }
+      .list{
+        display: flex;
+        justify-content: space-between;
+        .item{
+          text-align: center;
+        }
+        .number{
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 64px;
+          line-height: 64px;
+          span{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: -0.03em;
+          }
+        }
+        .text{
+          margin-bottom: 0;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          width: 200px;
+        }
+      }
+      .city, .spot{
+        position: absolute;
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 32px;
+      }
+      .city{
+        &.city-1{
+          right: 76px;
+          top: 44px;
+        }
+        &.city-2{
+          top: 284px;
+          left: 243px;
+        }
+      }
+      .spot{
+        &.spot-1{
+          top: 532px;
+          left: 365px;
+        }
+        &.spot-2{
+          top: 620px;
+          right: 353px;
+        }
+      }
+    }
+    &.auction-section-11{
+      padding-top: 196px;
+      padding-bottom: 245px;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: center;
+        margin-bottom: 32px;
+      }
+      .list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .item{
+          text-align: center;
+          flex: 0 0 calc(100% / 4);
+          .name{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+    &.auction-section-12{
+      padding-top: 276px;
+      padding-bottom: 123px;
+      color: #111111;
+      .wrapper{
+        position: relative;
+        .decor{
+          position: absolute;
+        }
+        .decor-1{
+          background-image: url("../img/section-12-decor-1.png");
+          width: 328px;
+          height: 326px;
+          left: -263px;
+          top: -66px;
+          z-index: -1;
+        }
+        .decor-2{
+          background-image: url("../img/section-12-decor-2.png");
+          width: 251px;
+          height: 246px;
+          left: -196px;
+          top: 139px;
+          z-index: -1;
+        }
+
+        .decor-3{
+          background-image: url("../img/section-12-decor-3.png");
+          width: 318px;
+          height: 343px;
+          right: 143px;
+          top: 38px;
+        }
+        .decor-4{
+          background-image: url("../img/section-12-decor-4.png");
+          width: 523px;
+          height: 523px;
+          right: -28%;
+        }
+        .decor-5{
+          background-image: url("../img/section-12-decor-5.png");
+          width: 494px;
+          height: 614px;
+          right: -10%;
+          z-index: -1;
+          top: 2%;
+        }
+        .decor-6{
+          background-image: url("../img/section-12-decor-6.png");
+          width: 757px;
+          height: 1301px;
+          bottom: -10%;
+          left: -31%;
+          z-index: -1;
+
+        }
+      }
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 12px;
+      }
+      .text{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        width: 682px;
+      }
+      .video{
+        margin-top: 168px;
+      }
+      .circle-list{
+        margin-top: 75px;
+        display: flex;
+        justify-content: center;
+        .circle-item{
+          width: 379px;
+          height: 379px;
+          border-radius: 50%;
+          border: 4px solid #4055C0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column;
+          &:first-child{
+            margin-right: 32px;
+          }
+          &.circle-2{
+            background: #4055C0;
+            color: #fff;
+            .title{
+              color: #fff;
+            }
+          }
+          .title{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 136px;
+            line-height: 136px;
+            color: #4055C0;
+          }
+          .desc{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+          }
+
+        }
+      }
+      .block-1{
+        margin-top: 134px;
+        display: flex;
+        justify-content: space-between;
+        .col-left{
+          flex: 0 0 584px;
+          .text{
+            width: 100%;
+          }
+        }
+        .col-right{
+          .ico-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            margin: 0 -16px;
+            .ico-item{
+              flex: 0 0 274px;
+              padding: 0 16px 32px;
+            }
+          }
+        }
+      }
+      .stat-list{
+        display: flex;
+        justify-content: center;
+        margin-top: 102px;
+        .stat-item{
+          flex: 0 0 376px;
+          &:first-child{
+            margin-right: 236px;
+          }
+          .title{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 136px;
+            line-height: 136px;
+            color: #4055C0;
+          }
+          .desc{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    &.auction-section-14{
+      color: #111111;
+      padding-top: 192px;
+      padding-bottom: 264px;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: center;
+      }
+      .block-1{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        .col{
+          flex: 0 0 580px;
+          .title{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 19px;
+          }
+          .text{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+          }
+          .txt-2{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+          }
+        }
+        .col-left{
+          .ico-list{
+            display: flex;
+            margin: 0 -6px;
+            .ico-item{
+              padding: 0 6px;
+              .txt{
+                font-size: 16px;
+                line-height: 16px;
+                text-align: center;
+                margin-top: 15px;
+              }
+            }
+          }
+          .txt-2{
+            margin-top: 283px;
+            color: #4055C0;
+          }
+        }
+        .col-right{
+          position: relative;
+          background: #4055C0;
+          padding: 29px 48px;
+          color: #fff;
+          .label{
+            position: absolute;
+            top: -32px;
+            right: 22px;
+            div{
+              transform: rotate(10deg);
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 24px;
+              line-height: 20px;
+              color: #111111;
+              padding: 15px 20px;
+              border: 2px solid #4055C0;
+              background: #FFFFFF;
+            }
+          }
+          .ico-list{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+            &:after{
+              content: '';
+              background-image: url("../img/section-14-ico-right-center.png");
+              width: 90px;
+              height: 89px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+            .ico-item{
+              position: relative;
+              display: flex;
+              flex-flow: column;
+              flex: 0 0 111px;
+              text-align: center;
+              &:first-child, &:last-child{
+                flex: 0 0 100%;
+                align-items: center;
+              }
+              &:after{
+                content: '';
+                background-image: url("../img/section-14-ico-right-arrow.png");
+                position: absolute;
+                width: 104px;
+                height: 103px;
+              }
+              &:nth-child(1):after{
+                bottom: 0;
+                right: 86px;
+              }
+              &:nth-child(2):after{
+                top: -95px;
+                left: 66px;
+                transform: rotate(270deg);
+              }
+              &:nth-child(3):after{
+                bottom: -79px;
+                left: -68px;
+                transform: rotate(90deg);
+              }
+              &:nth-child(4):after{
+                top: -18px;
+                left: 50px;
+                transform: rotate(180deg)
+              }
+              .txt{
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.auction-section-15{
+      padding-top: 52px;
+      padding-bottom: 56px;
+      background: #F5F6FC;
+      color: #111111;
+      h2{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 12px;
+      }
+      .text{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+      }
+      a{
+        background: #4055C0;
+        color: #fff;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        padding: 24px 105px;
+        display: inline-block;
+
+      }
+      .col-left{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .wrapper{
+        display: flex;
+        justify-content: space-between;
+      }
+
+    }
+    &.auction-section-16{
+      color: #111111;
+      padding-top: 140px;
+      padding-bottom: 248px;
+      .wrapper{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .text{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+      }
+      .timer-block{
+        display: flex;
+        .number{
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 152px;
+          line-height: 192px;
+          margin-right: 32px;
+          span{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 56px;
+            line-height: 56px;
+          }
+        }
+      }
+      a{
+        background: #4055C0;
+        padding: 24px 72px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 82px;
+        display: inline-block;
+      }
+    }
+    a{
+      color: #fff;
+    }
+  }
 }

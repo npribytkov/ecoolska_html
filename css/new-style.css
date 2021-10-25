@@ -1,0 +1,1288 @@
+.auction-page .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.auction-page .wrapper-2 {
+  max-width: 1512px;
+  margin: 0 auto;
+}
+.auction-page .auction-section {
+  color: #fff;
+  overflow: hidden;
+}
+.auction-page .auction-section.auction-section-1 {
+  padding-top: 80px;
+  padding-bottom: 143px;
+}
+.auction-page .auction-section.auction-section-1 .top {
+  margin-bottom: 18px;
+}
+.auction-page .auction-section.auction-section-1 .top a {
+  font-family: Raleway;
+  font-style: normal;
+  border: 1px solid #fff;
+  padding: 14px 18px;
+  border-radius: 50px;
+  margin-right: 32px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  display: inline-block;
+}
+.auction-page .auction-section.auction-section-1 h1 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+.auction-page .auction-section.auction-section-1 h1 .text-right {
+  text-align: right;
+  margin-right: 11%;
+}
+.auction-page .auction-section.auction-section-1 .hash-tag {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.auction-page .auction-section.auction-section-1 .desc-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 93px;
+}
+.auction-page .auction-section.auction-section-1 .desc-list .desc-item {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  width: calc(100% / 3 - 45px);
+  border-left: 2px solid #fff;
+  padding-left: 8px;
+}
+.auction-page .auction-section.auction-section-1 .timer-block .desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+}
+.auction-page .auction-section.auction-section-1 .timer-block .timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.auction-page .auction-section.auction-section-1 .timer-block .number {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 240px;
+  line-height: 240px;
+}
+.auction-page .auction-section.auction-section-1 .timer-block .type {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 56px;
+}
+.auction-page .auction-section.auction-section-1 .timer-block .btn-block a {
+  display: inline-block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #111111;
+  background-color: #fff;
+  padding: 23px 34px;
+  margin-bottom: 48px;
+}
+.auction-page .auction-section.auction-section-2 {
+  position: relative;
+  text-align: center;
+  padding-top: 87px;
+  padding-bottom: 114px;
+}
+.auction-page .auction-section.auction-section-2 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: -0.03em;
+  margin-bottom: 47px;
+}
+.auction-page .auction-section.auction-section-2 .title {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 280px;
+  line-height: 280px;
+  letter-spacing: -0.03em;
+}
+.auction-page .auction-section.auction-section-2 .desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  width: 393px;
+  margin: -38px auto 0;
+  padding-bottom: 145px;
+}
+.auction-page .auction-section.auction-section-2 .problem-list {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item {
+  position: relative;
+  width: calc(100%/4 - 20px);
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-line {
+  position: absolute;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-line.line-1 {
+  top: -211px;
+  right: -98px;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-line.line-2 {
+  top: -146px;
+  right: 109px;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-line.line-3 {
+  top: -146px;
+  right: 103px;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-line.line-4 {
+  top: -211px;
+  left: -86px;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-item__title {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-item__title span {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  margin-right: 8px;
+}
+.auction-page .auction-section.auction-section-2 .problem-list .problem-item .problem-item__desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.auction-page .auction-section.auction-section-2 .decor-left-1 {
+  position: absolute;
+  background-image: url("../img/decor-left-1.png");
+  width: 753px;
+  height: 864px;
+  left: -15px;
+  top: 0;
+}
+.auction-page .auction-section.auction-section-2 .decor-right-1 {
+  position: absolute;
+  background-image: url("../img/decor-right-1.png");
+  width: 609px;
+  height: 1032px;
+  right: 0;
+  top: 64px;
+}
+.auction-page .auction-section.auction-section-3 {
+  position: relative;
+  height: 776px;
+}
+.auction-page .auction-section.auction-section-3 .decor {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.auction-page .auction-section.auction-section-3 .decor-1 {
+  background-image: url("../img/section-3-decor-1.png");
+  width: 319.97px;
+  height: 207.42px;
+  left: 127px;
+  top: 178px;
+}
+.auction-page .auction-section.auction-section-3 .decor-2 {
+  background-image: url("../img/section-3-decor-2.png");
+  width: 272px;
+  height: 302px;
+  top: 390px;
+  left: 0;
+}
+.auction-page .auction-section.auction-section-3 .decor-3 {
+  background-image: url("../img/section-3-decor-3.png");
+  width: 152.7px;
+  height: 147.79px;
+  top: 521px;
+  left: 250px;
+}
+.auction-page .auction-section.auction-section-3 .decor-4 {
+  background-image: url("../img/section-3-decor-4.png");
+  width: 341px;
+  height: 435px;
+  top: 445px;
+  right: 464px;
+}
+.auction-page .auction-section.auction-section-3 .decor-5 {
+  background-image: url("../img/section-3-decor-5.png");
+  width: 296px;
+  height: 259px;
+  top: 563px;
+  right: 213px;
+}
+.auction-page .auction-section.auction-section-3 .decor-6 {
+  background-image: url("../img/section-3-decor-6.png");
+  width: 394px;
+  height: 496px;
+  top: -27px;
+  right: 175px;
+}
+.auction-page .auction-section.auction-section-4 {
+  padding-top: 180px;
+  padding-bottom: 160px;
+  color: #111111;
+}
+.auction-page .auction-section.auction-section-4 .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 82px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-left {
+  flex: 0 0 640px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-left h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-left .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  width: 478px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-left .text span {
+  font-weight: bold;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right {
+  flex: 0 0 477px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right .reg-block {
+  background: #F5F6FC;
+  padding: 36px 50px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right .reg-block .timer-block {
+  display: flex;
+  margin-bottom: 12px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right .reg-block .timer-block .number {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin-right: 16px;
+  display: flex;
+  align-items: end;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right .reg-block .timer-block .number:last-child {
+  margin-right: 0;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right .reg-block .timer-block .number span {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right .reg-block .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 72px;
+}
+.auction-page .auction-section.auction-section-4 .top .col-right .reg-block .btn-block a {
+  display: block;
+  background: #111111;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  padding: 24px 0;
+}
+.auction-page .auction-section.auction-section-4 .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col {
+  flex: 0 0 50%;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col:first-child {
+  border-right: 2px solid #E8E8E8;
+  padding-right: 84px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col:last-child {
+  padding-left: 84px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col h3 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .product-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -16px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .product-list .product-item {
+  flex: 0 0 50%;
+  padding: 0 16px;
+  margin-bottom: 38px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .product-list .product-item .name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #E8E8E8;
+  margin-top: 10px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .price-block .price-item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .price-block .price-item .ico {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 22px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .price-block .price-item .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+}
+.auction-page .auction-section.auction-section-4 .bottom .col .price-block .price-item.btn a {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 16px;
+  background-color: #111111;
+  width: 276px;
+  display: inline-block;
+  text-align: center;
+}
+.auction-page .auction-section.auction-section-6 {
+  color: #111111;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+.auction-page .auction-section.auction-section-6 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+}
+.auction-page .auction-section.auction-section-6 p.desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  width: 787px;
+}
+.auction-page .auction-section.auction-section-6 .cloth {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-6 .cloth .col-left, .auction-page .auction-section.auction-section-6 .cloth .col-right {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding-top: 105px;
+}
+.auction-page .auction-section.auction-section-6 .cloth .cloth-item {
+  position: relative;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  width: 336px;
+  margin-bottom: 72px;
+}
+.auction-page .auction-section.auction-section-6 .cloth .cloth-item:last-child {
+  margin-bottom: 0;
+}
+.auction-page .auction-section.auction-section-6 .cloth .col-left .cloth-item:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/cloth-item-line.png");
+  width: 393px;
+  height: 117px;
+  left: 0;
+  bottom: -118px;
+}
+.auction-page .auction-section.auction-section-6 .cloth .col-right {
+  text-align: right;
+}
+.auction-page .auction-section.auction-section-6 .cloth .col-right .cloth-item:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/cloth-item-line.png");
+  width: 393px;
+  height: 117px;
+  right: 0;
+  bottom: -118px;
+  transform: scale(-1, 1);
+}
+.auction-page .auction-section.auction-section-6 .cloth .col-center {
+  margin: 0 -28px;
+}
+.auction-page .auction-section.auction-section-7 {
+  color: #111111;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 112px;
+}
+.auction-page .auction-section.auction-section-7 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+}
+.auction-page .auction-section.auction-section-7 .block-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-7 .block-1 .text {
+  width: 788px;
+}
+.auction-page .auction-section.auction-section-7 .block-1 .img {
+  position: relative;
+  z-index: 4;
+}
+.auction-page .auction-section.auction-section-7 .block-2 {
+  margin-top: -168px;
+  margin-bottom: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-7 .block-2 .text {
+  width: 274px;
+  margin-top: 208px;
+  margin-left: 32px;
+}
+.auction-page .auction-section.auction-section-7 .block-2 .img-1 {
+  margin-top: 72px;
+  position: relative;
+  z-index: 3;
+}
+.auction-page .auction-section.auction-section-7 .block-2 .img-2 {
+  margin-left: -70px;
+  margin-top: 28px;
+  position: relative;
+  z-index: 2;
+}
+.auction-page .auction-section.auction-section-7 .block-2 .img-3 {
+  margin-left: -70px;
+}
+.auction-page .auction-section.auction-section-7 .block-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.auction-page .auction-section.auction-section-7 .block-3 .col-right {
+  flex: 0 0 580px;
+}
+.auction-page .auction-section.auction-section-7 .block-3 .col-right .img {
+  margin-top: 32px;
+  text-align: right;
+}
+.auction-page .auction-section.auction-section-7 .block-4 {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-7 .block-4 .col-left, .auction-page .auction-section.auction-section-7 .block-4 .col-right {
+  flex: 0 0 580px;
+}
+.auction-page .auction-section.auction-section-7 .block-4 .col-left .img-block {
+  display: flex;
+  margin-top: 32px;
+}
+.auction-page .auction-section.auction-section-7 .block-4 .col-left .img-block .img-1 {
+  margin-top: 32px;
+  position: relative;
+  z-index: 2;
+}
+.auction-page .auction-section.auction-section-7 .block-4 .col-left .img-block .img-2 {
+  margin-left: -37px;
+}
+.auction-page .auction-section.auction-section-7 .block-4 .col-right .img {
+  margin-bottom: 32px;
+}
+.auction-page .auction-section.auction-section-7 .block-5 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-7 .block-5 .col-right, .auction-page .auction-section.auction-section-7 .block-5 .col-left {
+  flex: 0 0 580px;
+}
+.auction-page .auction-section.auction-section-7 .block-5 .col-right h3 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin-left: -122px;
+  margin-top: -28px;
+}
+.auction-page .auction-section.auction-section-7 .block-5 .col-right .img-block {
+  display: flex;
+  align-items: center;
+}
+.auction-page .auction-section.auction-section-7 .block-5 .col-right .img-block .img-2 {
+  margin-left: -31px;
+  position: relative;
+  z-index: 2;
+}
+.auction-page .auction-section.auction-section-7 .block-5 .col-right .text {
+  margin-bottom: 47px;
+}
+.auction-page .auction-section.auction-section-7 .block-5 .col-left .text {
+  margin-top: 32px;
+}
+.auction-page .auction-section.auction-section-7 .block-5 .col-left a {
+  color: #4055C0;
+  text-decoration: underline;
+}
+.auction-page .auction-section.auction-section-8 {
+  color: #111111;
+  padding-top: 212px;
+  padding-bottom: 215px;
+  overflow: hidden;
+}
+.auction-page .auction-section.auction-section-8 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 68px;
+}
+.auction-page .auction-section.auction-section-8 .video-list {
+  display: flex;
+}
+.auction-page .auction-section.auction-section-8 .video-list .video-item {
+  flex: 0 0 calc(100% / 4);
+  padding-right: 32px;
+}
+.auction-page .auction-section.auction-section-8 .video-list .video-item .img {
+  position: relative;
+}
+.auction-page .auction-section.auction-section-8 .video-list .video-item .img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(17, 17, 17, 0.4);
+  transition: background-color 0.3s ease-in-out;
+}
+.auction-page .auction-section.auction-section-8 .video-list .video-item .img:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/ico-play-btn.png");
+  width: 40px;
+  height: 46px;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.auction-page .auction-section.auction-section-8 .video-list .video-item .name {
+  margin-top: 21px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+}
+.auction-page .auction-section.auction-section-8 .video-list .video-item:hover .img:before {
+  background-color: transparent;
+}
+.auction-page .auction-section.auction-section-8 .video-list .slick-list {
+  margin-right: -100%;
+  padding-right: 100%;
+}
+.auction-page .auction-section.auction-section-9 {
+  color: #111111;
+  padding-bottom: 176px;
+}
+.auction-page .auction-section.auction-section-9 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+}
+.auction-page .auction-section.auction-section-9 .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  width: 682px;
+}
+.auction-page .auction-section.auction-section-9 .block {
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-9 .block .col {
+  width: 740px;
+}
+.auction-page .auction-section.auction-section-9 .block .col .top {
+  display: flex;
+  color: #4055C0;
+}
+.auction-page .auction-section.auction-section-9 .block .col .top .number {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 104px;
+  line-height: 104px;
+  margin-bottom: 12px;
+}
+.auction-page .auction-section.auction-section-9 .block .col .top .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  width: 260px;
+  margin-left: 16px;
+}
+.auction-page .auction-section.auction-section-9 .block .col .img {
+  position: relative;
+  margin-bottom: 61px;
+}
+.auction-page .auction-section.auction-section-9 .block .col .img .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 104px;
+  line-height: 104px;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+}
+.auction-page .auction-section.auction-section-9 .block .col .img .text div {
+  transform: rotate(-15deg);
+}
+.auction-page .auction-section.auction-section-9 .block .col .text-block h3 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  color: #4055C0;
+  margin-bottom: 11px;
+}
+.auction-page .auction-section.auction-section-9 .block .col .text-block p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+.auction-page .auction-section.auction-section-9 .block .col .btn-block a {
+  margin-top: 80px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  display: block;
+  padding: 24px 0;
+  background-color: #111111;
+}
+.auction-page .auction-section.auction-section-9 .block .col-left .top, .auction-page .auction-section.auction-section-9 .block .col-left .text-block, .auction-page .auction-section.auction-section-9 .block .col-left .btn-block {
+  margin-left: 156px;
+}
+.auction-page .auction-section.auction-section-9 .block .col-right .top {
+  margin-left: 156px;
+}
+.auction-page .auction-section.auction-section-9 .block .col-right .top, .auction-page .auction-section.auction-section-9 .block .col-right .text-block, .auction-page .auction-section.auction-section-9 .block .col-right .btn-block {
+  margin-right: 156px;
+}
+.auction-page .auction-section.auction-section-10 {
+  position: relative;
+  background-color: #022D45;
+  padding-top: 84px;
+  padding-bottom: 170px;
+}
+.auction-page .auction-section.auction-section-10 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 12px;
+}
+.auction-page .auction-section.auction-section-10 .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  width: 784px;
+  margin-bottom: 406px;
+}
+.auction-page .auction-section.auction-section-10 .list {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-10 .list .item {
+  text-align: center;
+}
+.auction-page .auction-section.auction-section-10 .list .number {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+}
+.auction-page .auction-section.auction-section-10 .list .number span {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+}
+.auction-page .auction-section.auction-section-10 .list .text {
+  margin-bottom: 0;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 200px;
+}
+.auction-page .auction-section.auction-section-10 .city, .auction-page .auction-section.auction-section-10 .spot {
+  position: absolute;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+}
+.auction-page .auction-section.auction-section-10 .city.city-1 {
+  right: 76px;
+  top: 44px;
+}
+.auction-page .auction-section.auction-section-10 .city.city-2 {
+  top: 284px;
+  left: 243px;
+}
+.auction-page .auction-section.auction-section-10 .spot.spot-1 {
+  top: 532px;
+  left: 365px;
+}
+.auction-page .auction-section.auction-section-10 .spot.spot-2 {
+  top: 620px;
+  right: 353px;
+}
+.auction-page .auction-section.auction-section-11 {
+  padding-top: 196px;
+  padding-bottom: 245px;
+}
+.auction-page .auction-section.auction-section-11 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.auction-page .auction-section.auction-section-11 .list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.auction-page .auction-section.auction-section-11 .list .item {
+  text-align: center;
+  flex: 0 0 calc(100% / 4);
+}
+.auction-page .auction-section.auction-section-11 .list .item .name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 8px;
+}
+.auction-page .auction-section.auction-section-12 {
+  padding-top: 276px;
+  padding-bottom: 123px;
+  color: #111111;
+}
+.auction-page .auction-section.auction-section-12 .wrapper {
+  position: relative;
+}
+.auction-page .auction-section.auction-section-12 .wrapper .decor {
+  position: absolute;
+}
+.auction-page .auction-section.auction-section-12 .wrapper .decor-1 {
+  background-image: url("../img/section-12-decor-1.png");
+  width: 328px;
+  height: 326px;
+  left: -263px;
+  top: -66px;
+  z-index: -1;
+}
+.auction-page .auction-section.auction-section-12 .wrapper .decor-2 {
+  background-image: url("../img/section-12-decor-2.png");
+  width: 251px;
+  height: 246px;
+  left: -196px;
+  top: 139px;
+  z-index: -1;
+}
+.auction-page .auction-section.auction-section-12 .wrapper .decor-3 {
+  background-image: url("../img/section-12-decor-3.png");
+  width: 318px;
+  height: 343px;
+  right: 143px;
+  top: 38px;
+}
+.auction-page .auction-section.auction-section-12 .wrapper .decor-4 {
+  background-image: url("../img/section-12-decor-4.png");
+  width: 523px;
+  height: 523px;
+  right: -28%;
+}
+.auction-page .auction-section.auction-section-12 .wrapper .decor-5 {
+  background-image: url("../img/section-12-decor-5.png");
+  width: 494px;
+  height: 614px;
+  right: -10%;
+  z-index: -1;
+  top: 2%;
+}
+.auction-page .auction-section.auction-section-12 .wrapper .decor-6 {
+  background-image: url("../img/section-12-decor-6.png");
+  width: 757px;
+  height: 1301px;
+  bottom: -10%;
+  left: -31%;
+  z-index: -1;
+}
+.auction-page .auction-section.auction-section-12 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 12px;
+}
+.auction-page .auction-section.auction-section-12 .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  width: 682px;
+}
+.auction-page .auction-section.auction-section-12 .video {
+  margin-top: 168px;
+}
+.auction-page .auction-section.auction-section-12 .circle-list {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+.auction-page .auction-section.auction-section-12 .circle-list .circle-item {
+  width: 379px;
+  height: 379px;
+  border-radius: 50%;
+  border: 4px solid #4055C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.auction-page .auction-section.auction-section-12 .circle-list .circle-item:first-child {
+  margin-right: 32px;
+}
+.auction-page .auction-section.auction-section-12 .circle-list .circle-item.circle-2 {
+  background: #4055C0;
+  color: #fff;
+}
+.auction-page .auction-section.auction-section-12 .circle-list .circle-item.circle-2 .title {
+  color: #fff;
+}
+.auction-page .auction-section.auction-section-12 .circle-list .circle-item .title {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 136px;
+  line-height: 136px;
+  color: #4055C0;
+}
+.auction-page .auction-section.auction-section-12 .circle-list .circle-item .desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.auction-page .auction-section.auction-section-12 .block-1 {
+  margin-top: 134px;
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-12 .block-1 .col-left {
+  flex: 0 0 584px;
+}
+.auction-page .auction-section.auction-section-12 .block-1 .col-left .text {
+  width: 100%;
+}
+.auction-page .auction-section.auction-section-12 .block-1 .col-right .ico-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 -16px;
+}
+.auction-page .auction-section.auction-section-12 .block-1 .col-right .ico-list .ico-item {
+  flex: 0 0 274px;
+  padding: 0 16px 32px;
+}
+.auction-page .auction-section.auction-section-12 .stat-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 102px;
+}
+.auction-page .auction-section.auction-section-12 .stat-list .stat-item {
+  flex: 0 0 376px;
+}
+.auction-page .auction-section.auction-section-12 .stat-list .stat-item:first-child {
+  margin-right: 236px;
+}
+.auction-page .auction-section.auction-section-12 .stat-list .stat-item .title {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 136px;
+  line-height: 136px;
+  color: #4055C0;
+}
+.auction-page .auction-section.auction-section-12 .stat-list .stat-item .desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+.auction-page .auction-section.auction-section-14 {
+  color: #111111;
+  padding-top: 192px;
+  padding-bottom: 264px;
+}
+.auction-page .auction-section.auction-section-14 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.auction-page .auction-section.auction-section-14 .block-1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col {
+  flex: 0 0 580px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col .title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 19px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col .txt-2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-left .ico-list {
+  display: flex;
+  margin: 0 -6px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-left .ico-list .ico-item {
+  padding: 0 6px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-left .ico-list .ico-item .txt {
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-left .txt-2 {
+  margin-top: 283px;
+  color: #4055C0;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right {
+  position: relative;
+  background: #4055C0;
+  padding: 29px 48px;
+  color: #fff;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .label {
+  position: absolute;
+  top: -32px;
+  right: 22px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .label div {
+  transform: rotate(10deg);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  color: #111111;
+  padding: 15px 20px;
+  border: 2px solid #4055C0;
+  background: #FFFFFF;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list:after {
+  content: "";
+  background-image: url("../img/section-14-ico-right-center.png");
+  width: 90px;
+  height: 89px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  flex: 0 0 111px;
+  text-align: center;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item:first-child, .auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item:last-child {
+  flex: 0 0 100%;
+  align-items: center;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item:after {
+  content: "";
+  background-image: url("../img/section-14-ico-right-arrow.png");
+  position: absolute;
+  width: 104px;
+  height: 103px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item:nth-child(1):after {
+  bottom: 0;
+  right: 86px;
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item:nth-child(2):after {
+  top: -95px;
+  left: 66px;
+  transform: rotate(270deg);
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item:nth-child(3):after {
+  bottom: -79px;
+  left: -68px;
+  transform: rotate(90deg);
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item:nth-child(4):after {
+  top: -18px;
+  left: 50px;
+  transform: rotate(180deg);
+}
+.auction-page .auction-section.auction-section-14 .block-1 .col-right .ico-list .ico-item .txt {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
+.auction-page .auction-section.auction-section-15 {
+  padding-top: 52px;
+  padding-bottom: 56px;
+  background: #F5F6FC;
+  color: #111111;
+}
+.auction-page .auction-section.auction-section-15 h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 12px;
+}
+.auction-page .auction-section.auction-section-15 .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+.auction-page .auction-section.auction-section-15 a {
+  background: #4055C0;
+  color: #fff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 24px 105px;
+  display: inline-block;
+}
+.auction-page .auction-section.auction-section-15 .col-left {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.auction-page .auction-section.auction-section-15 .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.auction-page .auction-section.auction-section-16 {
+  color: #111111;
+  padding-top: 140px;
+  padding-bottom: 248px;
+}
+.auction-page .auction-section.auction-section-16 .wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.auction-page .auction-section.auction-section-16 .text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+.auction-page .auction-section.auction-section-16 .timer-block {
+  display: flex;
+}
+.auction-page .auction-section.auction-section-16 .timer-block .number {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 152px;
+  line-height: 192px;
+  margin-right: 32px;
+}
+.auction-page .auction-section.auction-section-16 .timer-block .number span {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 56px;
+}
+.auction-page .auction-section.auction-section-16 a {
+  background: #4055C0;
+  padding: 24px 72px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 82px;
+  display: inline-block;
+}
+.auction-page .auction-section a {
+  color: #fff;
+}
+
+/*# sourceMappingURL=new-style.css.map */

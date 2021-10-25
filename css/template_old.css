@@ -3,6 +3,8 @@
 /* Start:/local/css/main.css?16330895195760*/
 @import url(../local/css/defaultStyles.css);
 @import url(../local/css/fonts.css);
+@import url(../local/fonts/Raleway/stylesheet.css);
+@import url(../local/fonts/BebasNeue/stylesheet.css);
 @import url(../local/css/animates.css);
 @import url(../local/css/icons.css);
 @import url(../local/css/jquery.formstyler.css);
