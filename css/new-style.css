@@ -2,7 +2,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-@media (max-width: 1360px) {
+@media (max-width: 1400px) {
   .auction-page .wrapper {
     max-width: 1012px;
   }
